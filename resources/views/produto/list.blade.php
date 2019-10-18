@@ -30,7 +30,7 @@
     
     
     <tr>
-      <th style="font-size:30px" scope="row">{{$row->id}}</th>
+      <th style="font-size:30px" scope="row"><a href="/mostrar/produto/{{$row->id}}">{{$row->id}}</a></th>
       <td style="font-size:30px">{{$row->nome}}</td>
       <td style="font-size:30px">{{$row->marca}}</td>
       <td style="font-size:30px">{{$row->categoria}}</td>

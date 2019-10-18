@@ -27,7 +27,7 @@
   <tbody>
   @foreach ($fornecedor as $forn)
     <tr>
-      <th style="font-size:30px" scope="row">{{$forn->id}}</th>
+      <th style="font-size:30px" scope="row"><a href="/mostrar/fornecedor/{{$forn->id}}">{{$forn->id}}</a></th>
       <td style="font-size:30px">{{$forn->nome_fornecedor}}</td>
       <td style="font-size:30px">{{$forn->email}}</td>
       <td style="font-size:30px">{{$forn->endereco}}</td>
