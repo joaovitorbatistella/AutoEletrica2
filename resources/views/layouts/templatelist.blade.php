@@ -159,15 +159,14 @@
 
         </nav>
        
-
+      <div class="container-fluid">
         <div class="row">   
           <div class="col-md-12">
           <h1>@yield('titulo')</h1>
           @yield('href')
           </div>
         </div>
-        <div>
-        
+ 
         </div>
         <br>
         <br>

@@ -8,80 +8,77 @@ CADASTRO DE CARROS
 <form class="form-horizontal" method="POST" action="/cadastro/carro">
     {{csrf_field() }}
     <fieldset>
-    <div class="panel panel-primary">
-      
+
+
+
+    <div class="container-fluid">
+  <div class="row">
+    <div class="col-md-6">
     <div class="form-group">
-    <!--
-    <div class="form-group">   
-    <div class="col-md-4 control-label">
-      <img id="logo" src="http://blogdoporao.com.br/wp-content/uploads/2016/12/Faculdade-pitagoras.png"/>
-    </div>
-    <div class="col-md-4 control-label">
-      <h1>Cadastro de Cliente</h1>
-      
-    </div>
-    </div>
-      -->
-    <div class="col-md-11 control-label">
+    <!-- aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa -->
+
+
+    <div class="col-md-12 control-label">
           <p class="help-block"><h11>*</h11> Campo Obrigatório </p>
     </div>
-    </div>
+    
+    <br>
 
-    <!-- Text input-->
-    <div class="form-group">
-    <label style="font-size:27px" for="Proprietario">Proprietário <h11>*</h11></label>  
+    <label class="col-md-12 control-label" style="font-size:27px" for="Proprietario">Proprietário <h11>*</h11></label>  
     <div class="col-md-8">
     <input id="proprietario" name="proprietario" placeholder="" class="form-control input-md" required="" type="text">
     </div>
-    </div>
-    <div class="form-group">
-    <label style="font-size:27px" for="Placa">Placa <h11>*</h11></label>  
-    <div class="col-md-2">
+    
+   <br>
+   
+    <label class="col-md-12 control-label" for="Placa">Placa <h11>*</h11></label>  
+    <div class="col-md-8">
     <input id="placa" name="placa" placeholder="ABC1234" class="form-control input-md" required="" type="text">
     </div>
-    </div>
-    <!--
-              $table->string('placa');
-              $table->string('proprietario');
-              $table->string('marca');
-              $table->string('modelo');
-              -->
-    <!-- Prepended text-->
 
-
-    <!-- Prepended text-->
+    <!-- aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa -->
+    </div> <!-- form-group -->
+    </div> <!-- col-md-6 -->
+    <div class="col-md-6">
     <div class="form-group">
-    <label style="font-size:27px" for="Marca">Marca <h11>*</h11></label>  
-    <div class="col-md-2">
+    <!-- aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa -->
+  <br>
+  <br>
+  
+  <label class="col-md-12 control-label" for="Marca">Marca <h11>*</h11></label>  
+    <div class="col-md-8">
     <input id="marca" name="marca" placeholder="" class="form-control input-md" required="" type="text">
     </div>
-    </div>
-    <div class="form-group">
-    <label style="font-size:27px" for="Modelo">Modelo <h11>*</h11></label>  
-    <div class="col-md-2">
+   
+    <br>
+   
+    <label class="col-md-12 control-label"  for="Modelo">Modelo <h11>*</h11></label>  
+    <div class="col-md-8">
     <input id="modelo" name="modelo" placeholder="" class="form-control input-md" required="" type="text">
     </div>
-    </div>
+   
 
 
+    <!-- aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa -->
+    </div> <!-- form-group -->
+    </div> <!-- col-md-6 -->
+  </div> <!-- row -->
+  <div class="row">
+  <div class="col-md-12">
+  <!-- aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa -->
 
+  <label class="col-md-12 control-label" for="Cadastrar"></label>
+  <div class="col-md-8">
+    <button id="Cadastrar" name="Cadastrar" class="btn btn-success" type="Submit">Cadastrar</button>
+    <button id="Cancelar" name="Cancelar" class="btn btn-danger" type="Reset">Cancelar</button>
+  </div>
 
-    <!-- Select Basic -->  
-    </div>
+  <!-- aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa -->
+  </div>
+  </div>
+</div> <!-- container -->
 
-
-    <!-- Button (Double) -->
-    <div class="form-group">
-    <label  for="Cadastrar"></label>
-    <div class="col-md-8">
-      <button id="Cadastrar" name="Cadastrar" class="btn btn-success" type="Submit">Cadastrar</button>
-      <button id="Cancelar" name="Cancelar" class="btn btn-danger" type="Reset">Cancelar</button>
-    </div>
-    </div>
-
-    </div>
-    </div>
-
+    
 
 </fieldset>
 </form>
