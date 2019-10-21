@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d5bca48e56bbf3a25645858fcab9c285",
+    "content-hash": "e66cae2513373cef02e8427c747c9568",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -714,6 +714,50 @@
                 "psysh"
             ],
             "time": "2019-08-07T15:10:45+00:00"
+        },
+        {
+            "name": "lavela/phpjasper",
+            "version": "v3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lavela/phpjasper.git",
+                "reference": "d3d7bbc7d1d78766dd5c554189ba1680b9b0517a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lavela/phpjasper/zipball/d3d7bbc7d1d78766dd5c554189ba1680b9b0517a",
+                "reference": "d3d7bbc7d1d78766dd5c554189ba1680b9b0517a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PHPJasper\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Leandro Cintra Bitencourt",
+                    "email": "leandrobitencourt.ti@gmail.com",
+                    "role": "lead"
+                }
+            ],
+            "description": "Gerador de relatórios PHP",
+            "keywords": [
+                "pdf",
+                "relatórios"
+            ],
+            "time": "2018-03-07T17:22:33+00:00"
         },
         {
             "name": "league/flysystem",

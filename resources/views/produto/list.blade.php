@@ -37,8 +37,8 @@
       <td style="font-size:30px">R$ {{$row->preco_custo}}</td>
       <td style="font-size:30px">R$ {{$row->preco_unitario}}</td>
       <td style="font-size:30px">{{$row->nome_fornecedor}}</td>
-      <td style="font-size:30px"><a href="/editar/produto/{{$row->id}}"><img src="{{URL::asset('/image/editar.png')}}" height="20" width="20"></a></td>
-      <td style="font-size:30px"><a href="/excluir/produto/{{$row->id}}"><img src="{{URL::asset('/image/excluir.png')}}"  height="20" width="20"></a></td>
+      <td style="font-size:30px"><a href="/editar/produto/{{$row->id}}"><img src="/image/editar.png" height="20" width="20"></a></td>
+      <td style="font-size:30px"><a href="/excluir/produto/{{$row->id}}"><img src="/image/excluir.png"  height="20" width="20"></a></td>
     </tr>
     
   @endforeach

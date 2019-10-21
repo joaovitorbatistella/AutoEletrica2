@@ -76,6 +76,7 @@ class ComposerStaticInit66a3ff134dc36eb896668f80e7c0f021
             'Psr\\Container\\' => 14,
             'Prophecy\\' => 9,
             'PhpParser\\' => 10,
+            'PHPJasper\\' => 10,
         ),
         'N' => 
         array (
@@ -266,6 +267,10 @@ class ComposerStaticInit66a3ff134dc36eb896668f80e7c0f021
         array (
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
         ),
+        'PHPJasper\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/lavela/phpjasper/src',
+        ),
         'NunoMaduro\\Collision\\' => 
         array (
             0 => __DIR__ . '/..' . '/nunomaduro/collision/src',
@@ -373,7 +378,11 @@ class ComposerStaticInit66a3ff134dc36eb896668f80e7c0f021
         'App\\Http\\Controllers\\Auth\\ResetPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ResetPasswordController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
         'App\\Http\\Controllers\\HomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/HomeController.php',
+        'App\\Http\\Controllers\\atendimentoController' => __DIR__ . '/../..' . '/app/Http/Controllers/atendimentoController.php',
+        'App\\Http\\Controllers\\carroController' => __DIR__ . '/../..' . '/app/Http/Controllers/carroController.php',
+        'App\\Http\\Controllers\\compraController' => __DIR__ . '/../..' . '/app/Http/Controllers/compraController.php',
         'App\\Http\\Controllers\\fornecedorController' => __DIR__ . '/../..' . '/app/Http/Controllers/fornecedorController.php',
+        'App\\Http\\Controllers\\produtoController' => __DIR__ . '/../..' . '/app/Http/Controllers/produtoController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\EncryptCookies' => __DIR__ . '/../..' . '/app/Http/Middleware/EncryptCookies.php',
         'App\\Http\\Middleware\\RedirectIfAuthenticated' => __DIR__ . '/../..' . '/app/Http/Middleware/RedirectIfAuthenticated.php',
@@ -2069,6 +2078,12 @@ class ComposerStaticInit66a3ff134dc36eb896668f80e7c0f021
         'NunoMaduro\\Collision\\Highlighter' => __DIR__ . '/..' . '/nunomaduro/collision/src/Highlighter.php',
         'NunoMaduro\\Collision\\Provider' => __DIR__ . '/..' . '/nunomaduro/collision/src/Provider.php',
         'NunoMaduro\\Collision\\Writer' => __DIR__ . '/..' . '/nunomaduro/collision/src/Writer.php',
+        'PHPJasper\\Exception\\ErrorCommandExecutable' => __DIR__ . '/..' . '/lavela/phpjasper/src/Exception/ErrorCommandExecutable.php',
+        'PHPJasper\\Exception\\InvalidCommandExecutable' => __DIR__ . '/..' . '/lavela/phpjasper/src/Exception/InvalidCommandExecutable.php',
+        'PHPJasper\\Exception\\InvalidFormat' => __DIR__ . '/..' . '/lavela/phpjasper/src/Exception/InvalidFormat.php',
+        'PHPJasper\\Exception\\InvalidInputFile' => __DIR__ . '/..' . '/lavela/phpjasper/src/Exception/InvalidInputFile.php',
+        'PHPJasper\\Exception\\InvalidResourceDirectory' => __DIR__ . '/..' . '/lavela/phpjasper/src/Exception/InvalidResourceDirectory.php',
+        'PHPJasper\\PHPJasper' => __DIR__ . '/..' . '/lavela/phpjasper/src/PHPJasper.php',
         'PHPUnit\\Exception' => __DIR__ . '/..' . '/phpunit/phpunit/src/Exception.php',
         'PHPUnit\\Framework\\Assert' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert.php',
         'PHPUnit\\Framework\\AssertionFailedError' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/AssertionFailedError.php',

@@ -11,6 +11,7 @@
 |
 */
 Auth::routes();
+Route::group(['middleware' => 'auth'], function(){
 Route::get('/', 'HomeController@index')->name('home');
 Route::get('/home', 'HomeController@index')->name('home');
 
@@ -67,7 +68,7 @@ Route::get('/mostrar/produto/{id}', 'produtoController@show');
 //Route::get('/create/produto','produtosController@create');
 //Route::post('/cadastro/produto', 'produtosController@store');
 
-
+});
 //php artisan key:generate
 //composer dump-autoload
 //php artisan migrate --seed

@@ -27,8 +27,8 @@
       <th style="font-size:30px"><a style="text-decoration: none" href="/mostrar/compra/{{$comp->id}}">{{$comp->id}}</a></th>
       <td style="font-size:30px">R$ {{$comp->valor_total}}</td>
       <td style="font-size:30px">{{$comp->dt_compra}}</td>
-      <td style="font-size:30px"><a href="/editar/compra/{{$comp->id}}"><img src="{{URL::asset('/image/editar.png')}}" height="20" width="20"></a></td>
-      <td style="font-size:30px"><a href="/excluir/compra/{{$comp->id}}"><img src="{{URL::asset('/image/excluir.png')}}"  height="20" width="20"></a></td>
+      <td style="font-size:30px"><a href="/editar/compra/{{$comp->id}}"><img src="/image/editar.png" height="20" width="20"></a></td>
+      <td style="font-size:30px"><a href="/excluir/compra/{{$comp->id}}"><img src="/image/excluir.png"  height="20" width="20"></a></td>
     </tr>
   @endforeach
   

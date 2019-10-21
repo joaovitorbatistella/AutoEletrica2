@@ -36,8 +36,8 @@
       <td style="font-size:30px">@if ($row->situacao == 1) Solucionado 
                                  @elseif ($row->situacao == 2) Em andamento
                                  @elseif ($row->situacao == 3) Em espera @endif</td>
-      <td style="font-size:30px"><a href="/editar/atendimento/{{$row->id}}"><img src="{{URL::asset('/image/editar.png')}}" height="20" width="20"></a></td>
-      <td style="font-size:30px"><a href="/excluir/atendimento/{{$row->id}}"><img src="{{URL::asset('/image/excluir.png')}}"  height="20" width="20"></a></td>
+      <td style="font-size:30px"><a href="/editar/atendimento/{{$row->id}}"><img src="/image/editar.png" height="20" width="20"></a></td>
+      <td style="font-size:30px"><a href="/excluir/atendimento/{{$row->id}}"><img src="/image/excluir.png"  height="20" width="20"></a></td>
     </tr>
   @endforeach
   

@@ -33,8 +33,8 @@
       <td style="font-size:30px">{{$forn->endereco}}</td>
       <td style="font-size:30px">{{$forn->uf}}</td>
       <td style="font-size:30px">{{$forn->cidade}}</td>
-      <td style="font-size:30px"><a href="/editar/fornecedor/{{$forn->id}}"><img src="{{URL::asset('/image/editar.png')}}" height="20" width="20"></a></td>
-      <td style="font-size:30px"><a href="/excluir/fornecedor/{{$forn->id}}"><img src="{{URL::asset('/image/excluir.png')}}"  height="20" width="20"></a></td>
+      <td style="font-size:30px"><a href="/editar/fornecedor/{{$forn->id}}"><img src="/image/editar.png" height="20" width="20"></a></td>
+      <td style="font-size:30px"><a href="/excluir/fornecedor/{{$forn->id}}"><img src="/image/excluir.png"  height="20" width="20"></a></td>
     </tr>
   @endforeach
   

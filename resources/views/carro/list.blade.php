@@ -31,8 +31,8 @@
       <td style="font-size:30px">{{$car->placa}}</td>
       <td style="font-size:30px">{{$car->marca}}</td>
       <td style="font-size:30px">{{$car->modelo}}</td>
-      <td style="font-size:30px"><a href="/editar/carro/{{$car->id}}"><img src="{{URL::asset('/image/editar.png')}}" height="20" width="20"></a></td>
-      <td style="font-size:30px"><a href="/excluir/carro/{{$car->id}}"><img src="{{URL::asset('/image/excluir.png')}}"  height="20" width="20"></a></td>
+      <td style="font-size:30px"><a href="/editar/carro/{{$car->id}}"><img src="/image/editar.png" height="20" width="20"></a></td>
+      <td style="font-size:30px"><a href="/excluir/carro/{{$car->id}}"><img src="/image/excluir.png"  height="20" width="20"></a></td>
     </tr>
   @endforeach
   
